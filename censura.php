@@ -34,8 +34,11 @@ $censored_paragraph_len = strlen($censored_paragraph);
         <hr>
         <p>
             <b>
+                Il paragrafo è lungo
                 <?php echo $censored_paragraph_len ?>
+                caratteri
             </b>
+            <br>
             <?php echo $censored_paragraph ?>
         </p>
 
