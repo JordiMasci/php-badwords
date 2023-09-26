@@ -29,14 +29,14 @@ $censored_paragraph_len = strlen($censored_paragraph);
         <p>
             <b>Il pragrafo è lungo <?php echo $paragraph_len ?> caratteri</b>
             <br />
-            <?php $paragraph ?>
+            <?php echo $paragraph ?>
         </p>
         <hr>
         <p>
             <b>
-                <?php $censored_paragraph ?>
+                <?php echo $censored_paragraph_len ?>
             </b>
-            <?php $censored_paragraph_len ?>
+            <?php echo $censored_paragraph ?>
         </p>
 
     </div>
